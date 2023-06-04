@@ -22,7 +22,7 @@
     ></script>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
-  <body>
+  <body class="p-5">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
@@ -53,26 +53,65 @@
         </div>
       </div>
     </nav>
-    <h1>Welcome!</h1>
-    <h2>About me</h2>
-    <p>Front End Web Developer from Nigeria</p>
-    <a href="/" title="homepage">Homepage</a>
-    <a href="/about.html#contact" title="contact section">Contact</a>
-    <h3 id="contact">Contact</h3>
-    <p>
-      Email:<br />
-      <a href="mailto:jennygregory11@gmail.com" title="mail address"
-        >jennygregory11@gmail.com</a
-      >
-    </p>
-    <p>
-      Instagram: <br />
-      <a
-        href="https://www.instagram.com/mizjeni_greg/"
-        title="instagram contact"
-      >
-        Mizjeni_greg</a
-      >
-    </p>
+    <div class="text-center pt-5">
+      <h1>Welcome!</h1>
+      <h2>About me</h2>
+      <p class="pb-3">Front End Web Developer from Nigeria</p>
+      <div class="d-flex justify-content-center">
+        <a
+          href="/"
+          class="border border-1 rounded bg-primary text-white text-decoration-none p-3 m-3"
+          title="homepage"
+          >Homepage</a
+        >
+        <a
+          href="/about.html#contact"
+          class="border border-1 rounded bg-primary text-white text-decoration-none p-3 m-3"
+          title="contact section"
+          >Contact</a
+        >
+      </div>
+      <p class="p-5">
+        Dynamic and detail-oriented Front End Web Developer with a Bachelor's
+        degree in Computer Science and a knack for conceptualizing and
+        delivering elegant, user-friendly solutions effectively and efficiently.
+      </p>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 p-3">
+            <img
+              src="/images/yogaapp.jpeg"
+              class="img-fluid"
+              alt="yoga image"
+            />
+          </div>
+          <div class="col-sm-4 p-3">
+            <img src="/images/weatherapp.jpg" class="img-fluid alt="weather
+            image" />
+          </div>
+          <div class="col-sm-4 p-3">
+            <img src="/images/cake.jpeg" class="img-fluid alt="cake image" />
+          </div>
+        </div>
+      </div>
+
+      <h3 id="contact" class="pt-5 m-3">Contact</h3>
+      <p>
+        Email:<br />
+        <a href="mailto:jennygregory11@gmail.com" title="mail address"
+          >jennygregory11@gmail.com</a
+        >
+      </p>
+      <p>
+        Instagram: <br />
+        <a
+          href="https://www.instagram.com/mizjeni_greg/"
+          title="instagram contact"
+        >
+          Mizjeni_greg</a
+        >
+      </p>
+    </div>
   </body>
 </html>
