@@ -1,4 +1,34 @@
+body {
+  background: #f1c7c8;
+}
+@media (max-width: 600px) {
+  .description {
+    text-align: center;
+    font-size: 12px;
+  }
+  .image {
+    display: none;
+  }
+  .pagelink {
+    display: flex;
+    justify-content: center;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
 .logo-img {
   width: 60px;
   height: 40px;
+}
+.description {
+  font-size: 18px;
+}
+.links {
+  background-color: #6e6582 !important;
+  color: antiquewhite !important;
+}
+.link {
+  background-color: antiquewhite !important;
+  color: #6e6582 !important;
 }
